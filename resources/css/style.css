@@ -1,0 +1,42 @@
+html, body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+strong {
+  font-weight: bold;
+}
+
+/*Header Styles*/
+
+  /*Nav menu Styles*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  margin: 0 1.5rem 0 1.5rem;
+}
+nav li, ul {
+  display: inline-block;
+}
+nav li {
+  margin-left: 1rem;
+}
+nav span {
+  flex-grow: 1;
+}
+.mobilemenu{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    margin: auto;
+  }
+  .desktopmenu {
+    display: none;
+  }
+  .mobilemenu{
+    display: flex;
+    justify-content: space-around;
+  }
+}
