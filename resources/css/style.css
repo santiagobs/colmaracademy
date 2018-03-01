@@ -5,6 +5,12 @@ html, body {
 strong {
   font-weight: bold;
 }
+.media60 {
+    width: 60%;
+}
+.media35 {
+    width: 35%;
+}
 
 /*Header Styles*/
 
@@ -24,6 +30,7 @@ nav li {
 }
 nav span {
   flex-grow: 1;
+  font-size: 1.2rem;
 }
 .mobilemenu{
   display: none;
@@ -39,4 +46,18 @@ nav span {
     display: flex;
     justify-content: space-around;
   }
+}
+/*Banner Rules*/
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 2rem 1.5rem 0 1.5rem;
+}
+.banner img {
+  max-width: 100%;
+}
+.start {
+  margin-left: 3rem;
+  border: thin solid black;
 }
