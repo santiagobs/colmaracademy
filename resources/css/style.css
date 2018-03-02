@@ -9,8 +9,13 @@ h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
 h3 {
   font-size: 1.5rem;
+    font-weight: bold;
 }
 .media60 {
     width: 60%;
@@ -59,10 +64,10 @@ nav span {
   display: flex;
   align-items: center;
   background-color: silver;
-  padding: 2rem 1.5rem;
+  padding: 2rem 0 2rem 1.5rem;
 }
 .banner img {
-  max-width: 100%;
+  width: 60%;
 }
 .start {
   margin-left: 3rem;
@@ -100,4 +105,33 @@ nav span {
   .button {
     margin-bottom: 2rem;
   }
+}
+/*Information Section*/
+.information {
+  display: flex;
+  padding: 2rem 0 2rem 1.5rem;
+}
+.mobile {
+  display: none;
+}
+.main {
+  margin-right: 1.5rem;
+}
+.main img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+.main h2 {
+  margin-bottom: 1.5rem;
+}
+.secondary {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.orientation,.campus,.guest {
+  display: flex;
+}
+.secondary img{
+  width: 35%;
 }
