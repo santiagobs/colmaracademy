@@ -15,7 +15,7 @@ h2 {
 }
 h3 {
   font-size: 1.5rem;
-    font-weight: bold;
+  font-weight: bold;
 }
 .media60 {
     width: 60%;
@@ -26,10 +26,7 @@ h3 {
 .media35 {
     width: 35%;
 }
-
-/*Header Styles*/
-
-  /*Nav menu Styles*/
+/*Nav menu Styles*/
 nav {
   display: flex;
   justify-content: space-around;
@@ -178,5 +175,48 @@ nav span {
     width: 100%;
     margin-left: 1rem;
   }
+}
+/*Learning Section*/
+.learning {
+  padding: 2rem 4.5rem 1rem 4.5rem;
+}
+.learning h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.course {
+  display: flex;
+  justify-content: center;
+}
+.course img{
+  max-width: 100%;
+  height: auto;
+}
+.feature {
+  margin: 1rem;
+  background-color: white;
+}
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .desktop{
+    display: none;
+  }
+  .course{
+    flex-direction: column;
+  }
+  .learning h2 {
+    padding-bottom: 1.25rem;
+  }
+  .learning {
+    padding: 2rem 1rem 2rem 1rem;
+  }
+  .coursebox{
+   margin: 0.25rem 0;
+   background-color: silver;
+  }
+  .coursebox h3{
+    padding: 1rem;
   }
 }
