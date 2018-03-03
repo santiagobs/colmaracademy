@@ -204,6 +204,7 @@ nav span {
     display: none;
   }
   .course{
+    display: flex;
     flex-direction: column;
   }
   .learning h2 {
