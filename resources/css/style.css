@@ -196,7 +196,7 @@ nav span {
   margin: 1rem;
   background-color: white;
 }
-.mobile {
+.learning .mobile {
   display: none;
 }
 @media only screen and (max-width: 768px) {
