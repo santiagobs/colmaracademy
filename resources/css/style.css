@@ -4,12 +4,14 @@ html, body {
 strong {
   font-weight: bold;
 }
-h1,h2,h3 {
-  font-family: 'Encode Sans Semi Expanded', sans-serif;
-
+h1,h2,h3,.companyname{
+  font-family: 'Encode Sans', sans-serif;
 }
 p, span, li, a{
   font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
 }
 span {
   font-size: 0.8rem;
@@ -34,9 +36,6 @@ h3 {
 }
 .media35 {
     width: 35%;
-}
-.companyname {
-  font-family: 'Encode Sans Expanded';
 }
 /*Nav menu Styles*/
 nav {
@@ -89,6 +88,7 @@ nav span {
 }
 .banner h1 {
   margin-bottom: 2rem;
+  font-weight: 800;
 }
 .banner h3 {
   margin-bottom: 2rem;
@@ -195,6 +195,7 @@ nav span {
 .learning h2 {
   text-align: center;
   padding-bottom: 1rem;
+  font-weight: 800;
 }
 .course {
   display: flex;
@@ -243,6 +244,7 @@ nav span {
 .thesis h2 {
   text-align: center;
   margin: 2rem 0;
+  font-weight: 800;
 }
 .flexthesis {
   display: flex;
