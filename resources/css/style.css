@@ -1,9 +1,18 @@
 html, body {
-  font-family:'', sans-serif;
   font-size: 16px;
 }
 strong {
   font-weight: bold;
+}
+h1,h2,h3 {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+
+}
+p, span, li, a{
+  font-family: "Open Sans", sans-serif;
+}
+span {
+  font-size: 0.8rem;
 }
 h1 {
   font-size: 2.5rem;
@@ -25,6 +34,9 @@ h3 {
 }
 .media35 {
     width: 35%;
+}
+.companyname {
+  font-family: 'Encode Sans Expanded';
 }
 /*Nav menu Styles*/
 nav {
@@ -242,6 +254,9 @@ nav span {
 .videothesis h3{
   margin: 1.5rem 0 0.5rem 0;
 }
+.videothesis p{
+  margin-top: 0.5rem;
+}
 .secondarythesis{
   display: flex;
   flex-direction: column;
@@ -280,6 +295,7 @@ nav span {
 footer {
   display: flex;
   padding: 1rem 1.5rem 4rem 1.5rem;
+  font-size: 0.9rem;
 }
 footer a:nth-child(2n+0){
   margin: 0 0.5rem;
