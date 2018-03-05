@@ -43,7 +43,13 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 4rem;
-  margin: 0 1.5rem 0 1.5rem;
+  padding: 0 1.5rem 0 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background-color: white;
 }
 nav li, ul {
   display: inline-block;
@@ -77,7 +83,7 @@ nav span {
   background-color: silver;
 }
 .banner .media60 {
- padding: 2rem 1.5rem 2rem 1.5rem;
+ padding: 6rem 1.5rem 2rem 1.5rem;
 }
 .banner img {
   max-width: 100%;
