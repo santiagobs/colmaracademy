@@ -97,7 +97,7 @@ nav span {
   background-color: silver;
 }
 .banner .media60 {
- padding: 6rem 1.5rem 2rem 1.5rem;
+ margin: 6rem 1.5rem 2rem 1.5rem;
 }
 .banner img {
   max-width: 100%;
@@ -170,14 +170,20 @@ nav span {
   background-color: silver;
   width: 40%;
 }
+.secondary .imgzoombox {
+  width: 35%;
+  margin: 1rem;
+}
+.secondary .supporting{
+  width: 40%;
+}
 .orientation,.campus,.guest {
   display: flex;
   align-items: center;
 }
 .secondary img{
-  padding: 1rem;
-  width: 35%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .secondary p{
   padding: 0.5rem 0;
@@ -284,9 +290,16 @@ nav span {
   flex-direction: column;
   width: 40%;
 }
-.secondarythesis img{
+.secondarythesis .imgzoombox{
+  width: 35%;
   margin: 1rem;
-  max-width: 35%;
+}
+.secondarythesis .supporting{
+  width: 40%;
+}
+.secondarythesis img{
+  max-width: 100%;
+  max-height: 100%;
 }
 .secondarythesis p {
   margin: 0.5rem 0;
