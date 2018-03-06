@@ -1,3 +1,4 @@
+/*Palette UID: 73O0u0kiCFn8GVde7NVmtwSqXtg*/
 html, body {
   font-size: 16px;
 }
@@ -12,6 +13,8 @@ p, span, li, a{
 }
 a {
   text-decoration: none;
+  color: #28459D;
+  font-weight: bold;
 }
 span {
   font-size: 0.8rem;
@@ -36,10 +39,10 @@ h3 {
   transform: scale(1.1);
 }
 .imgzoom{
-  -webkit-transition: transform 200ms ease-in 100ms;
-  -moz-transition: : transform 200ms ease-in 100ms;
-  -ms-transition: : transform 200ms ease-in 100ms;
-  -o-transition: : transform 200ms ease-in 100ms;
+  -webkit-transition: transform 300ms ease-in 100ms;
+  -moz-transition: transform 300ms ease-in 100ms;
+  -ms-transition: transform 300ms ease-in 100ms;
+  -o-transition: transform 300ms ease-in 100ms;
 }
 /*General Media Containers*/
 .media60 {
@@ -63,7 +66,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 5;
-  background-color: white;
+  background-color: whitesmoke;
 }
 nav li, ul {
   display: inline-block;
@@ -80,7 +83,7 @@ nav span {
 }
 @media only screen and (max-width: 768px) {
   nav {
-    margin: auto;
+    padding: 0;
   }
   .desktopmenu {
     display: none;
@@ -94,7 +97,7 @@ nav span {
 .banner {
   display:flex;
   align-items: center;
-  background-color: silver;
+  background-color: #B6C5F0;
 }
 .banner .media60 {
  margin: 6rem 1.5rem 2rem 1.5rem;
@@ -104,7 +107,6 @@ nav span {
 }
 .start {
   margin-left: 1.5rem;
-  border: thin solid black;
 }
 .banner h1 {
   margin-bottom: 2rem;
@@ -116,8 +118,14 @@ nav span {
 .button {
   padding: 0.5rem 0 0.5rem 0;
   text-align: center;
-  background-color: gray;
-  /*INSERT TRANSITION HERE*/
+  color: white;
+  background-color: #28459D;
+  transition: all 300ms linear 50ms;
+}
+.button:hover {
+  background-color: whitesmoke;
+  font-weight: bold;
+  color: #28459D;
 }
 @media only screen and (max-width: 768px) {
   .banner {
@@ -145,6 +153,7 @@ nav span {
 .information {
   display: flex;
   padding: 1rem 0rem 2rem 0;
+  background-color: whitesmoke;
 }
 .information .media60{
   padding: 1rem 1.5rem 0 1.5rem;
@@ -153,7 +162,6 @@ nav span {
   display: none;
 }
 .main {
-  border: thin solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -167,7 +175,6 @@ nav span {
 .secondary {
   display: flex;
   flex-direction: column;
-  background-color: silver;
   width: 40%;
 }
 .secondary .imgzoombox {
@@ -180,6 +187,11 @@ nav span {
 .orientation,.campus,.guest {
   display: flex;
   align-items: center;
+  border: thin solid whitesmoke;
+  background-color: #FFE9BA;
+}
+.orientation:hover,.campus:hover,.guest:hover {
+  background-color: #B6C5F0;
 }
 .secondary img{
   max-width: 100%;
