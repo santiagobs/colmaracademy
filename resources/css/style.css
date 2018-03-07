@@ -1,4 +1,3 @@
-/*Palette UID: 73O0u0kiCFn8GVde7NVmtwSqXtg*/
 html, body {
   font-size: 16px;
 }
@@ -13,8 +12,13 @@ p, span, li, a{
 }
 a {
   text-decoration: none;
-  color: #28459D;
   font-weight: bold;
+}
+a:link {
+  color: #28459D;
+}
+a:active {
+  color: #E98325;
 }
 span {
   font-size: 0.8rem;
@@ -191,7 +195,7 @@ nav span {
   background-color: #FFE9BA;
 }
 .orientation:hover,.campus:hover,.guest:hover {
-  background-color: #B6C5F0;
+  background-color: #d5def6;
 }
 .secondary img{
   max-width: 100%;
@@ -229,6 +233,7 @@ nav span {
 /*Learning Section*/
 .learning {
   padding: 2rem 4.5rem 1rem 4.5rem;
+  background-color: #d5def6;
 }
 .learning h2 {
   text-align: center;
@@ -238,6 +243,7 @@ nav span {
 .course {
   display: flex;
   justify-content: center;
+  background-color: #d5def6;
 }
 .course img{
   max-width: 100%;
@@ -245,16 +251,22 @@ nav span {
 }
 .feature {
   margin: 1rem;
-  background-color: white;
+  background-color: whitesmoke;
+}
+.feature:hover{
+  background-color: #FFE9BA;
 }
 .learning .mobile {
   display: none;
 }
 .feature h3 {
-  margin: 1rem 0;
+  margin: 1rem;
 }
 .feature p:nth-child(3n+3){
-  margin: 0.5rem 0;
+  margin: 0.5rem 1rem;
+}
+.feature p:nth-child(4n+4){
+  margin: 0 1rem 1.5rem 1rem;
 }
 @media only screen and (max-width: 768px) {
   .learning .desktop{
@@ -272,16 +284,19 @@ nav span {
   }
   .coursebox{
    margin: 0.25rem 0;
-   background-color: silver;
+   background-color: #FFE9BA;
   }
   .coursebox h3{
     padding: 1rem;
   }
 }
 /*Thesis Exhibit Section*/
+.thesis {
+  background-color: whitesmoke;
+}
 .thesis h2 {
   text-align: center;
-  margin: 2rem 0;
+  padding: 2rem 0;
   font-weight: 800;
 }
 .flexthesis {
@@ -320,6 +335,11 @@ nav span {
   display: flex;
   align-items: center;
   width: 100%;
+  background-color: #FFE9BA;
+  border: thin solid whitesmoke;
+}
+.fisma:hover,.nowthen:hover {
+  background-color: #d5def6;
 }
 @media only screen and (max-width: 768px) {
   .thesis .desktop {
@@ -343,6 +363,7 @@ footer {
   display: flex;
   padding: 1rem 1.5rem 4rem 1.5rem;
   font-size: 0.9rem;
+  background-color: #B6C5F0;
 }
 footer a:nth-child(2n+0){
   margin: 0 0.5rem;
