@@ -2,8 +2,7 @@
 Capstone Project for Codecademy "Build Websites from Scratch" pro-intensive course.
 
 ## Fonts
-Used only Sans-Serif fonts from Google Fonts collection
-Encode Sans and Open Sans
+Used only Sans-Serif fonts from Google Fonts collection (Encode Sans and Open Sans)
 
 ## Colors
 Palette UID: 73O0u0kiCFn8GVde7NVmtwSqXtg at http://paletton.com
