@@ -306,7 +306,7 @@ nav span {
 }
 .flexthesis {
   display: flex;
-  margin: 0 0 2rem 1.5rem;
+  padding: 0 0 2rem 1.5rem;
 }
 .videothesis{
   margin-right: 1.5rem;
@@ -359,7 +359,7 @@ nav span {
     margin: 0;
   }
   .flexthesis {
-    margin: 0 0 1.5rem 0;
+    padding: 0 0 1.5rem 0;
   }
 }
 /*Footer Rules*/
