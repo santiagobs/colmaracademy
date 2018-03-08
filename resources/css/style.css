@@ -220,14 +220,19 @@ nav span {
   }
   .orientation,.campus,.guest {
     flex-direction: column;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    align-items: flex-start;
   }
   .secondary img{
     width: 100%;
   }
   .information .supporting {
-    width: 100%;
-    margin-left: 1rem;
+    width: auto;
+    margin: 1rem;
+  }
+  .secondary .imgzoombox {
+    margin: 0;
   }
 }
 /*Learning Section*/
@@ -334,7 +339,6 @@ nav span {
 .fisma,.nowthen {
   display: flex;
   align-items: center;
-  width: 100%;
   background-color: #FFE9BA;
   border: thin solid whitesmoke;
 }
